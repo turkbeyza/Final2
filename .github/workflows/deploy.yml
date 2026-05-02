@@ -26,7 +26,7 @@ jobs:
        password: ${{ secrets.REGISTRY_PASSWORD }}
  
     - run: |
-       docker build . -t acrfinal2.azurecr.io/final2:${{ github.sha }}
+       docker build ./helloAzure -t acrfinal2.azurecr.io/final2:${{ github.sha }}
        docker push acrfinal2.azurecr.io/final2:${{ github.sha }}
  
     - name: 'App Service Deployment'
