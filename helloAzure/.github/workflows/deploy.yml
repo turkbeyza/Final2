@@ -1,0 +1,38 @@
+name: Container Build & Azure Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  delivery-workflow:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 'Source Code Checkout'
+      uses: actions/checkout@v2
+
+    - name: 'Azure Portal Login'
+      uses: azure/login@v1
+      with:
+        creds: ${{secrets.AZURE_CREDENTIALS}}
+ 
+    - name: 'Docker Image Build & Registry Push'
+      uses: azure/docker-login@v1
+      with:
+       login-server: acrfinal2.azurecr.io
+       username: ${{ secrets.REGISTRY_USERNAME }}
+       password: ${{ secrets.REGISTRY_PASSWORD }}
+ 
+    - run: |
+       docker build . -t acrfinal2.azurecr.io/final2:${{ github.sha }}
+       docker push acrfinal2.azurecr.io/final2:${{ github.sha }}
+ 
+    - name: 'App Service Deployment'
+      uses: azure/webapps-deploy@v2
+      with:
+       app-name: 'aa-final2'
+       images: 'acrfinal2.azurecr.io/final2:${{ github.sha }}'
+    - run: |
+       az logout
