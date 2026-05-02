@@ -1,0 +1,14 @@
+/var/folders/bk/9fkytyvn6gn7y80zyzhy14zw0000gn/T/rider-publish17711597697512831334/helloAzure
+/var/folders/bk/9fkytyvn6gn7y80zyzhy14zw0000gn/T/rider-publish17711597697512831334/appsettings.Development.json
+/var/folders/bk/9fkytyvn6gn7y80zyzhy14zw0000gn/T/rider-publish17711597697512831334/appsettings.json
+/var/folders/bk/9fkytyvn6gn7y80zyzhy14zw0000gn/T/rider-publish17711597697512831334/helloAzure.dll
+/var/folders/bk/9fkytyvn6gn7y80zyzhy14zw0000gn/T/rider-publish17711597697512831334/helloAzure.deps.json
+/var/folders/bk/9fkytyvn6gn7y80zyzhy14zw0000gn/T/rider-publish17711597697512831334/helloAzure.runtimeconfig.json
+/var/folders/bk/9fkytyvn6gn7y80zyzhy14zw0000gn/T/rider-publish17711597697512831334/helloAzure.pdb
+/var/folders/bk/9fkytyvn6gn7y80zyzhy14zw0000gn/T/rider-publish17711597697512831334/Microsoft.AspNetCore.OpenApi.dll
+/var/folders/bk/9fkytyvn6gn7y80zyzhy14zw0000gn/T/rider-publish17711597697512831334/Microsoft.OpenApi.dll
+/var/folders/bk/9fkytyvn6gn7y80zyzhy14zw0000gn/T/rider-publish17711597697512831334/Npgsql.dll
+/var/folders/bk/9fkytyvn6gn7y80zyzhy14zw0000gn/T/rider-publish17711597697512831334/Swashbuckle.AspNetCore.Swagger.dll
+/var/folders/bk/9fkytyvn6gn7y80zyzhy14zw0000gn/T/rider-publish17711597697512831334/Swashbuckle.AspNetCore.SwaggerGen.dll
+/var/folders/bk/9fkytyvn6gn7y80zyzhy14zw0000gn/T/rider-publish17711597697512831334/Swashbuckle.AspNetCore.SwaggerUI.dll
+/var/folders/bk/9fkytyvn6gn7y80zyzhy14zw0000gn/T/rider-publish17711597697512831334/System.Diagnostics.DiagnosticSource.dll

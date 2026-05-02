@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "T2TYbOrlHs1sxdJW3ADfBR4kLlse/jqtQqm8EKcQ0Xo=",
+  "Source": "helloAzure",
+  "BasePath": "_content/helloAzure",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
