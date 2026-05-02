@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vmEqw9/cmOU=",
+  "dgSpecHash": "OYZl+OVpN4E=",
   "success": true,
-  "projectFilePath": "/Users/beyzaturk/Desktop/helloAzure/helloAzure/helloAzure.csproj",
+  "projectFilePath": "/Users/beyzaturk/Desktop/Final2/helloAzure/helloAzure/helloAzure.csproj",
   "expectedPackageFiles": [
     "/Users/beyzaturk/.nuget/packages/azure.core/1.51.1/azure.core.1.51.1.nupkg.sha512",
     "/Users/beyzaturk/.nuget/packages/azure.identity/1.19.0/azure.identity.1.19.0.nupkg.sha512",

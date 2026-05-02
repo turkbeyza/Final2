@@ -1683,11 +1683,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/beyzaturk/Desktop/helloAzure/helloAzure/helloAzure.csproj",
+      "projectUniqueName": "/Users/beyzaturk/Desktop/Final2/helloAzure/helloAzure/helloAzure.csproj",
       "projectName": "helloAzure",
-      "projectPath": "/Users/beyzaturk/Desktop/helloAzure/helloAzure/helloAzure.csproj",
+      "projectPath": "/Users/beyzaturk/Desktop/Final2/helloAzure/helloAzure/helloAzure.csproj",
       "packagesPath": "/Users/beyzaturk/.nuget/packages/",
-      "outputPath": "/Users/beyzaturk/Desktop/helloAzure/helloAzure/obj/",
+      "outputPath": "/Users/beyzaturk/Desktop/Final2/helloAzure/helloAzure/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/beyzaturk/.nuget/NuGet/NuGet.Config"
