@@ -37,7 +37,7 @@ app.MapGet("/hello", async () =>
         await using var conn = new NpgsqlConnection(connectionString);
         await conn.OpenAsync();
 
-        return Results.Ok("Database connection SUCCESSFUL");
+        return Results.Ok("Database connection SUCCESSFUL with ACR");
     }
     catch (Exception ex)
     {
